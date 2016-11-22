@@ -10,12 +10,15 @@ The two main functions of a biometrics system are storing and comparing.   The  
 
 Once the print information is stored in an accessible database, a  user's  prints  can  be  compared  whenever  the   system  is accessed.  You  are  authenticated  when  both  the  stored  and user's  print  match.  Finger  print  readers  use  this  uniqueness  to generate  a  code   
 
--rarely  do  they  actually  use  the  full  print  for identification 
+- rarely  do  they  actually  use  the  full  print  for identification 
 
--based  on areas  where  print  lines  merge,  form, or loop like  the round "whirl" that  you can  find in the  middle 
+- based  on areas  where  print  lines  merge,  form, or loop like  the round "whirl" that  you can  find in the  middle 
 
 of all finger prints.  
-
+- Fingerprint recognition is one of the best known and most widely used biometric technologies. Automated systems have been commercially available since the early 1970s, and at the time of our study, we found there were more than 75 fingerprint
+recognition technology companies. Until recently, fingerprint recognition was used primarily in law enforcement applications.
+Fingerprint recognition technology extracts features from impressions made by the distinct ridges on the fingertips. The 
+fingerprints can be either flat or rolled. A flat print captures only an impression of the central area between the fingertip and the first knuckle; a rolled print captures ridges on both sides of the finger.
 
 ## FLOW CHART OF COMMANDS USED:  
 Following were the commands being used:
@@ -31,3 +34,4 @@ Description:  it  displays  a  histogram  for  the  image  I  above  a grayscale
 Description:   converts   the   true   color   image   RGB   to   the grayscale intensity image I. Rgb2gray converts RGB images to grayscale  by  eliminating  the  hue  and  saturation  information while retaining the luminance.  
 # Imshow(i)  
 Description:  It displays  the  grayscale  image I,  specifying  the display range for Iin [low high]. The value low(and any value less than low) displays as black; the value high(and any value greater  than high)  displays  as  white.  Values  in  between  are displayed  as  intermediate  shades  of  gray,  using  the  default number of gray levels. If you use an empty matrix ([]) for [low high], imshow uses [min(I(:)) max(I(:))]; that is, the minimum value  in Iis  displayed  as  black,  and the  maximum  value  is displayed as white.
+
