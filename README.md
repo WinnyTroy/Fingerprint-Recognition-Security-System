@@ -1,5 +1,7 @@
 # Fingerprint-Recognition-Security-System  
 
+Fingerprint recognition or fingerprint authentication refers to the automated method of verifying a match between two human fingerprints. Fingerprints are one of many forms of biometrics used to identify individuals and verify their identity.
+
 The  main  technologies  used  to  capture  the  fingerprint  image with sufficient detail are optical, silicon, and ultrasound. There are two main algorithm families to recognize fingerprints: 
 
 1.  Minutia   matching   compares   specific   details   within   the fingerprint  ridges.  At  registration  (also  called  enrollment),  the minutia   points   are   located,   together   with   their   relative positions  to  each  other  and  their  directions.  At  the  matching stage,  the fingerprint image is processed to extract  its  minutia points, which are then compared with the registered template.   
